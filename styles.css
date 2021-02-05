@@ -1,0 +1,23 @@
+body{
+	background-color: #DBC8A5;
+	color: #DB4C38
+}
+a{
+	color: #DB4C38;
+	animation-name: goodbye;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.class{
+	position: relative;
+
+}
+
+@keyframes goodbye{
+	0%   {color:#645D8F;}
+  	25%  {color:#ACA4DB;}
+  	50%  {color:#39DBCB;}
+  	75%  {color:#DBA4C7;}
+  	100% {color:#645D8F;}
+}
