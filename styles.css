@@ -14,10 +14,7 @@ a{
 
 }
 
-@keyframes goodbye{
-	0%   {color:#645D8F;}
-  	25%  {color:#ACA4DB;}
-  	50%  {color:#39DBCB;}
-  	75%  {color:#DBA4C7;}
-  	100% {color:#645D8F;}
+img{
+	width: 45vw;
 }
+

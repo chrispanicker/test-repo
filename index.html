@@ -2,12 +2,27 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Test</title>
+	<title>Airtable Test</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<h1 class="hello">Hello World!</h1>
-	<p class="hello">Hello, world?</p>
-	<a href="https://chrispanicker.github.io" class="hello">Goodbye, world.</a>
+	<h1>Images</h1>
+	<nav id="shelf" class="shelf"></nav>
+	<article id="way-detail" class="way-detail hidden">
+		<section class="figure">
+			<img class="attachments"
+			src="https://placekitten.com/200/300"
+			alt="Way Image"
+			/>
+		</section>
+
+		<section class="info">
+			<h2 class="title">Something</h2>
+			<p class="description">Idk what to put here lol</p>
+		</section>
+	
+	<script src="./lib/airtable.browser.js"></script>
+	<script src="main.js"></script>
 </body>
 </html>
